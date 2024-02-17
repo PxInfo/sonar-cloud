@@ -17,6 +17,7 @@ func TestSub(t *testing.T) {
 
 	if result != 3 {
 		t.Error("The result must be 3.")
+
 	}
 }
 
