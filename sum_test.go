@@ -11,29 +11,29 @@ func TestSum(t *testing.T) {
 	}
 }
 
-// func TestSub(t *testing.T) {
+func TestSub(t *testing.T) {
 
-// 	result := sub(7, 4)
+	result := sub(7, 4)
 
-// 	if result != 3 {
-// 		t.Error("The result must be 3.")
-// 	}
-// }
+	if result != 3 {
+		t.Error("The result must be 3.")
+	}
+}
 
-// func TestTimes(t *testing.T) {
+func TestTimes(t *testing.T) {
 
-// 	result := times(3, 4)
+	result := times(3, 4)
 
-// 	if result != 12 {
-// 		t.Error("The result must be 12.")
-// 	}
-// }
+	if result != 12 {
+		t.Error("The result must be 12.")
+	}
+}
 
-// func TestSumX(t *testing.T) {
+func TestSumX(t *testing.T) {
 
-// 	result := sumX(2, 5)
+	result := sumX(2, 5)
 
-// 	if result != 9 {
-// 		t.Error("The result must be 9.")
-// 	}
-// }
+	if result != 9 {
+		t.Error("The result must be 9.")
+	}
+}
